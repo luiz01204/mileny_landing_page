@@ -9,16 +9,16 @@ export default function Hero() {
                 src="/hero.jpg"
                 alt="Professora de inglês"
                 fill
-                className="object-cover z-0"
+                className="object-cover"
                 quality={100}
                 priority
             />
 
             {/* Overlay azul com opacidade */}
-            <div className="absolute inset-0 bg-[#3533CD] opacity-80 z-0" />
+            <div className="absolute inset-0 bg-[#3533CD] opacity-70" />
 
             {/* Conteúdo por cima */}
-            <div className="flex flex-col gap-6 md:py-20 md:pl-20 justify-center items-center md:justify-start md:items-start h-screen px-4 z-10 relative">
+            <div className="flex flex-col gap-6 md:py-20 md:pl-20 justify-center items-center md:justify-start md:items-start h-screen px-4 relative">
                 <h1 className="font-bold text-white text-5xl text-center md:text-start md:text-7xl md:w-2/3 drop-shadow-lg">
                     Aprenda a pensar em inglês por imersão, forma mais rápida e natural de aprender uma nova língua!
                 </h1>
