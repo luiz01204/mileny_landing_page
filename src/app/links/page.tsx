@@ -17,7 +17,7 @@ export default function LinksPage() {
         />
       </div>
 
-      <h1 className="text-3xl md:text-4xl font-bold mb-8 text-center">Conecte-se com a Teacher Mi</h1>
+      <h1 className="text-2xl md:text-4xl font-bold mb-8 text-center">Conecte-se com a Teacher Mi</h1>
 
       <div className="flex flex-col gap-4 w-full max-w-md">
         <Link
