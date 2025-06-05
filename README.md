@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Landing Page - Teacher Mi
 
-## Getting Started
+Landing page desenvolvida para a professora de inglês **Teacher Mi**, com o objetivo de apresentar seus serviços, contar sua história e facilitar o contato com novos alunos.
 
-First, run the development server:
+## 🚀 Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* [Next.js](https://nextjs.org/)
+* [React](https://reactjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [React Icons](https://react-icons.github.io/react-icons)
+
+## 🎯 Funcionalidades
+
+* ✅ Hero com imagem de fundo e chamada principal
+* ✅ Seção "Sobre" com história da professora
+* ✅ Serviços oferecidos com botão direto pro WhatsApp
+* ✅ Depoimentos com prints e link para avaliações completas
+* ✅ FAQ com dúvidas frequentes
+* ✅ Footer com links pro Instagram e WhatsApp
+
+## 🖼️ Imagens
+
+As imagens de depoimentos estão localizadas em `public/` e seguem o padrão:
+
+```
+public/
+├── hero.jpg
+├── depoimento_1.png
+├── depoimento_2.png
+├── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📞 Contato direto via WhatsApp
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Todos os botões de ação redirecionam diretamente para o WhatsApp da Teacher Mi com mensagens automáticas para cada serviço.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Como rodar o projeto localmente
 
-## Learn More
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/teacher-mi-landing.git
 
-To learn more about Next.js, take a look at the following resources:
+# Acesse a pasta do projeto
+cd teacher-mi-landing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Instale as dependências
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Rode o projeto
+npm run dev
+```
 
-## Deploy on Vercel
+## 🌐 Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Essa landing pode ser publicada facilmente no [Vercel](https://vercel.com/) com integração direta do GitHub.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Feito com 💙 por Luiz Antonio dos Santos.
